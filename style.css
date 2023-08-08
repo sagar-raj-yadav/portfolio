@@ -1,0 +1,129 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width:100%;
+	background:url(images/bg.jpg);
+}
+
+.navbar{
+	
+	width:86%;
+	display: flex;
+	margin:auto;
+	padding: 15px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width:80px;
+	cursor:pointer;
+}
+
+.logo:hover
+{
+	background-color:black;
+}
+
+ul li{
+     list-style: none;
+     display:inline-block;
+     padding:10px 16px;
+}
+
+ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color:rgb(229,235,64);
+	font-family: sans-serif;
+}
+
+ul li a:hover{
+	color:rgb(246,44,30);
+}
+
+.info{
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+.info h1{
+	font-size:60px;
+	color:rgb(36,32,30);
+}
+
+.info h3{
+	font-size:25px;
+	color:rgb(36,32,30);
+}
+
+h1 span{
+	color:orange;
+}
+
+.info a{
+	text-decoration: none;
+	color:#fff;
+	background: rgb(36,32,30);
+	 margin:30px 0;
+    padding:10px 20px;
+    display:inline-block;
+    transition: .4s ease;
+   }
+
+
+ .info a:hover{
+   	background: rgb(59,174,209);
+   }
+
+.image{
+	width:20%;
+	height:50%;
+	position:absolute;
+	right:90px;
+	bottom:0;
+}
+
+.image img{
+	left:40%;
+	height:140%;
+	position:absolute;
+	transform: translate(-55%);
+	bottom:0;
+}
+
+.icon a{
+	color:#000;
+	transition: .4s ease;
+	padding:10px;
+	}
+
+.icon {
+	margin-top:110px;
+	margin-left:4%;
+    
+	font-size:35px;
+	
+}
+
+.leetcode{
+	height:40px;
+	width:40px;
+}
+ .instagram:hover{
+	color:red;
+}
+
+.twitter:hover{
+	color:red;
+}
+
+.github:hover{
+	color:red;
+}
+
+
